@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Refrigeración Aldo - Servicio profesional de refrigeración, aire acondicionado y electricidad industrial."
+    >
+
+    <title>Refrigeración Aldo | Servicio Profesional</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Iconos -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="header" id="inicio">
+
+        <div class="container nav-container">
+
+            <a href="#inicio" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-snowflake"></i>
+                </div>
+
+                <div class="logo-text">
+                    <span>REFRIGERACIÓN</span>
+                    <strong>ALDO</strong>
+                </div>
+            </a>
+
+            <nav class="nav" id="nav">
+
+                <a href="#inicio" data-i18n="nav_home">Inicio</a>
+                <a href="#servicios" data-i18n="nav_services">Servicios</a>
+                <a href="#precios" data-i18n="nav_prices">Precios</a>
+                <a href="#equipo" data-i18n="nav_team">Equipo</a>
+                <a href="#contacto" data-i18n="nav_contact">Contacto</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <!-- Selector de idioma -->
+                <select id="languageSelector" aria-label="Seleccionar idioma">
+                    <option value="es">🇦🇷 ES</option>
+                    <option value="pt">🇧🇷 PT</option>
+                    <option value="en">🇺🇸 EN</option>
+                </select>
+
+                <!-- Modo oscuro -->
+                <button
+                    class="theme-btn"
+                    id="themeToggle"
+                    aria-label="Cambiar tema"
+                >
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <!-- Menú móvil -->
+                <button
+                    class="menu-btn"
+                    id="menuToggle"
+                    aria-label="Abrir menú"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero">
+
+            <div class="hero-background"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <div class="badge">
+                        <span class="status-dot"></span>
+                        <span data-i18n="available">
+                            Servicio profesional
+                        </span>
+                    </div>
+
+                    <h1>
+                        <span data-i18n="hero_title_1">
+                            Refrigeración
+                        </span>
+
+                        <span class="gradient-text">
+                            Aldo
+                        </span>
+                    </h1>
+
+                    <p data-i18n="hero_description">
+                        Soluciones profesionales en refrigeración,
+                        aire acondicionado y electricidad industrial.
+                        Calidad, experiencia y responsabilidad en cada trabajo.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#contacto" class="btn btn-primary">
+                            <i class="fa-solid fa-calendar-check"></i>
+                            <span data-i18n="request_service">
+                                Solicitar servicio
+                            </span>
+                        </a>
+
+                        <a href="#servicios" class="btn btn-secondary">
+                            <span data-i18n="view_services">
+                                Ver servicios
+                            </span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="hero-stats">
+
+                        <div>
+                            <strong>3</strong>
+                            <span data-i18n="team_members">
+                                Profesionales
+                            </span>
+                        </div>
+
+                        <div>
+                            <strong>100%</strong>
+                            <span data-i18n="professional">
+                                Profesional
+                            </span>
+                        </div>
+
+                        <div>
+                            <strong>24/7</strong>
+                            <span data-i18n="attention">
+                                Atención
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card">
+
+                    <div class="hero-card-glow"></div>
+
+                    <div class="hero-card-icon">
+                        <i class="fa-solid fa-snowflake"></i>
+                    </div>
+
+                    <h3 data-i18n="hero_card_title">
+                        Expertos en frío
+                    </h3>
+
+                    <p data-i18n="hero_card_text">
+                        Refrigeración residencial, comercial e industrial.
+                    </p>
+
+                    <div class="hero-card-line"></div>
+
+                    <div class="hero-card-info">
+                        <i class="fa-solid fa-bolt"></i>
+                        <span data-i18n="electricity">
+                            Electricidad industrial
+                        </span>
+                    </div>
+
+                    <div class="hero-card-info">
+                        <i class="fa-solid fa-fan"></i>
+                        <span data-i18n="air_conditioning">
+                            Aire acondicionado
+                        </span>
+                    </div>
+
+                    <div class="hero-card-info">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span data-i18n="maintenance">
+                            Mantenimiento
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICIOS
+        ========================== -->
+
+        <section class="section services-section" id="servicios">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label" data-i18n="what_we_do">
+                        LO QUE HACEMOS
+                    </span>
+
+                    <h2 data-i18n="services_title">
+                        Servicios profesionales
+                    </h2>
+
+                    <p data-i18n="services_description">
+                        Nos encargamos de que tus equipos funcionen de manera
+                        eficiente, segura y confiable.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+
+                        <div class="service-number">01</div>
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-snowflake"></i>
+                        </div>
+
+                        <h3 data-i18n="service_1_title">
+                            Refrigeración
+                        </h3>
+
+                        <p data-i18n="service_1_text">
+                            Instalación, reparación y mantenimiento
+                            de sistemas de refrigeración.
+                        </p>
+
+                        <a href="#contacto" class="service-link">
+                            <span data-i18n="learn_more">Consultar</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card featured-service">
+
+                        <div class="service-number">02</div>
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-fan"></i>
+                        </div>
+
+                        <h3 data-i18n="service_2_title">
+                            Aire acondicionado
+                        </h3>
+
+                        <p data-i18n="service_2_text">
+                            Limpieza, mantenimiento y revisión de
+                            equipos de aire acondicionado.
+                        </p>
+
+                        <a href="#precios" class="service-link">
+                            <span data-i18n="see_prices">Ver precios</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-number">03</div>
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+
+                        <h3 data-i18n="service_3_title">
+                            Electricidad industrial
+                        </h3>
+
+                        <p data-i18n="service_3_text">
+                            Soluciones eléctricas y mantenimiento
+                            para instalaciones industriales.
+                        </p>
+
+                        <a href="#contacto" class="service-link">
+                            <span data-i18n="learn_more">Consultar</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-number">04</div>
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+
+                        <h3 data-i18n="service_4_title">
+                            Diagnóstico
+                        </h3>
+
+                        <p data-i18n="service_4_text">
+                            Revisamos el problema y determinamos
+                            la mejor solución para tu equipo.
+                        </p>
+
+                        <a href="#contacto" class="service-link">
+                            <span data-i18n="request_visit">Solicitar visita</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PRECIOS
+        ========================== -->
+
+        <section class="section prices-section" id="precios">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label" data-i18n="our_prices">
+                        NUESTROS PRECIOS
+                    </span>
+
+                    <h2 data-i18n="prices_title">
+                        Tarifas claras y transparentes
+                    </h2>
+
+                    <p data-i18n="prices_description">
+                        Conocé nuestros precios base antes de solicitar
+                        el servicio.
+                    </p>
+
+                </div>
+
+
+                <div class="prices-grid">
+
+                    <!-- VISITA -->
+                    <article class="price-card">
+
+                        <div class="price-top">
+                            <span class="price-tag" data-i18n="basic">
+                                BÁSICO
+                            </span>
+
+                            <div class="price-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                        </div>
+
+                        <h3 data-i18n="visit_title">
+                            Visita técnica
+                        </h3>
+
+                        <p data-i18n="visit_description">
+                            Visita al domicilio para revisar el equipo
+                            y detectar la falla.
+                        </p>
+
+                        <div class="price">
+                            <span>$</span>30.000
+                            <small>ARS</small>
+                        </div>
+
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span data-i18n="price_1">
+                                    Revisión del equipo
+                                </span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span data-i18n="price_2">
+                                    Diagnóstico inicial
+                                </span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span data-i18n="price_3">
+                                    Presupuesto de reparación
+                                </span>
+                            </li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/543757555031?text=Hola%20Refrigeración%20Aldo,%20quiero%20solicitar%20una%20visita%20técnica."
+                            target="_blank"
+                            class="btn btn-outline"
+                        >
+                            <span data-i18n="request_visit">
+                                Solicitar visita
+                            </span>
+                        </a>
+
+                    </article>
+
+
+                    <!-- LIMPIEZA -->
+                    <article class="price-card popular">
+
+                        <div class="popular-label">
+                            <i class="fa-solid fa-star"></i>
+                            <span data-i18n="recommended">
+                                RECOMENDADO
+                            </span>
+                        </div>
+
+                        <div class="price-top">
+                            <span class="price-tag" data-i18n="maintenance_tag">
+                                MANTENIMIENTO
+                            </span>
+
+                            <div class="price-icon">
+                                <i class="fa-solid fa-fan"></i>
+                            </div>
+                        </div>
+
+                        <h3 data-i18n="cleaning_title">
+                            Lavado de aire
+                        </h3>
+
+                        <p data-i18n="cleaning_description">
+                            Limpieza profesional del equipo de aire
+                            acondicionado.
+                        </p>
+
+                        <div class="price">
+                            <span>$</span>50.000
+                            <small>ARS</small>
+                        </div>
+
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span data-i18n="clean_1">
+                                    Limpieza del equipo
+                                </span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span data-i18n="clean_2">
+                                    Limpieza de filtros
+                                </span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span data-i18n="clean_3">
+                                    Mantenimiento general
+                                </span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span data-i18n="clean_4">
+                                    Control de funcionamiento
+                                </span>
+                            </li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/543757555031?text=Hola%20Refrigeración%20Aldo,%20quiero%20consultar%20por%20el%20lavado%20de%20un%20aire."
+                            target="_blank"
+                            class="btn btn-primary"
+                        >
+                            <span data-i18n="book_cleaning">
+                                Solicitar lavado
+                            </span>
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <div class="price-note">
+                    <i class="fa-solid fa-circle-info"></i>
+
+                    <span data-i18n="price_note">
+                        Los precios indicados corresponden a tarifas base.
+                        Trabajos, repuestos o reparaciones adicionales
+                        pueden tener un costo diferente.
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             DUEÑO / TÉCNICO
+        ========================== -->
+
+        <section class="section about-section">
+
+            <div class="container about-grid">
+
+                <div class="about-visual">
+
+                    <div class="about-box">
+
+                        <div class="about-icon">
+                            <i class="fa-solid fa-user-gear"></i>
+                        </div>
+
+                        <div class="about-big-text">
+                            ALDO
+                        </div>
+
+                        <div class="about-small-text">
+                            <span data-i18n="technical_experience">
+                                TÉCNICO ESPECIALIZADO
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-badge">
+                        <i class="fa-solid fa-certificate"></i>
+
+                        <span data-i18n="professional_service">
+                            Servicio profesional
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="section-label" data-i18n="about_us">
+                        SOBRE NOSOTROS
+                    </span>
+
+                    <h2 data-i18n="about_title">
+                        Experiencia técnica al servicio de tu equipo
+                    </h2>
+
+                    <p data-i18n="about_text_1">
+                        Refrigeración Aldo es un emprendimiento dedicado
+                        a brindar soluciones profesionales en refrigeración,
+                        climatización y electricidad industrial.
+                    </p>
+
+                    <p data-i18n="about_text_2">
+                        El dueño y técnico principal se encarga de supervisar
+                        los trabajos, realizar diagnósticos y brindar
+                        soluciones técnicas de calidad.
+                    </p>
+
+
+                    <div class="skills">
+
+                        <div class="skill">
+                            <div class="skill-title">
+                                <span data-i18n="skill_1">
+                                    Refrigeración
+                                </span>
+                                <strong>100%</strong>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span style="width: 100%"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="skill">
+                            <div class="skill-title">
+                                <span data-i18n="skill_2">
+                                    Electricidad industrial
+                                </span>
+                                <strong>100%</strong>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span style="width: 100%"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="skill">
+                            <div class="skill-title">
+                                <span data-i18n="skill_3">
+                                    Mantenimiento
+                                </span>
+                                <strong>100%</strong>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EQUIPO
+        ========================== -->
+
+        <section class="section team-section" id="equipo">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label" data-i18n="our_team">
+                        NUESTRO EQUIPO
+                    </span>
+
+                    <h2 data-i18n="team_title">
+                        Personas detrás del servicio
+                    </h2>
+
+                    <p data-i18n="team_description">
+                        Un equipo comprometido con realizar cada trabajo
+                        de forma responsable y profesional.
+                    </p>
+
+                </div>
+
+
+                <div class="team-grid">
+
+                    <!-- DUEÑO -->
+                    <article class="team-card owner">
+
+                        <div class="team-photo owner-photo">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+
+                        <div class="team-info">
+
+                            <span class="team-role" data-i18n="owner">
+                                DUEÑO / TÉCNICO
+                            </span>
+
+                            <h3>Aldo</h3>
+
+                            <p data-i18n="owner_description">
+                                Técnico en refrigeración y electricidad
+                                industrial. Encargado general de la empresa
+                                y responsable de los trabajos técnicos.
+                            </p>
+
+                            <div class="team-tags">
+
+                                <span>
+                                    <i class="fa-solid fa-snowflake"></i>
+                                    <span data-i18n="refrigeration">
+                                        Refrigeración
+                                    </span>
+                                </span>
+
+                                <span>
+                                    <i class="fa-solid fa-bolt"></i>
+                                    <span data-i18n="electricity">
+                                        Electricidad
+                                    </span>
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- EMPLEADO 1 -->
+                    <article class="team-card">
+
+                        <div class="team-photo employee-photo">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div class="team-info">
+
+                            <span class="team-role" data-i18n="employee">
+                                EMPLEADO
+                            </span>
+
+                            <h3 data-i18n="employee_1">
+                                Técnico de servicio
+                            </h3>
+
+                            <p data-i18n="employee_1_description">
+                                Apoyo técnico en instalaciones,
+                                mantenimiento y trabajos de campo.
+                            </p>
+
+                            <div class="team-tags">
+                                <span>
+                                    <i class="fa-solid fa-wrench"></i>
+                                    <span data-i18n="technical_support">
+                                        Apoyo técnico
+                                    </span>
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- EMPLEADO 2 -->
+                    <article class="team-card">
+
+                        <div class="team-photo employee-photo second">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div class="team-info">
+
+                            <span class="team-role" data-i18n="employee">
+                                EMPLEADO
+                            </span>
+
+                            <h3 data-i18n="employee_2">
+                                Asistente técnico
+                            </h3>
+
+                            <p data-i18n="employee_2_description">
+                                Asistencia en mantenimiento, limpieza
+                                e instalaciones de equipos.
+                            </p>
+
+                            <div class="team-tags">
+                                <span>
+                                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                                    <span data-i18n="assistance">
+                                        Asistencia
+                                    </span>
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROCESO
+        ========================== -->
+
+        <section class="section process-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label" data-i18n="our_process">
+                        NUESTRO PROCESO
+                    </span>
+
+                    <h2 data-i18n="process_title">
+                        Simple, rápido y profesional
+                    </h2>
+
+                </div>
+
+
+                <div class="process-grid">
+
+                    <div class="process-step">
+
+                        <div class="process-number">01</div>
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                        <h3 data-i18n="process_1_title">
+                            Contactanos
+                        </h3>
+
+                        <p data-i18n="process_1_text">
+                            Escribinos por WhatsApp y contanos
+                            qué problema tiene tu equipo.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-line"></div>
+
+
+                    <div class="process-step">
+
+                        <div class="process-number">02</div>
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                        <h3 data-i18n="process_2_title">
+                            Revisamos
+                        </h3>
+
+                        <p data-i18n="process_2_text">
+                            Analizamos el equipo y encontramos
+                            la causa del problema.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-line"></div>
+
+
+                    <div class="process-step">
+
+                        <div class="process-number">03</div>
+
+                        <i class="fa-solid fa-circle-check"></i>
+
+                        <h3 data-i18n="process_3_title">
+                            Solucionamos
+                        </h3>
+
+                        <p data-i18n="process_3_text">
+                            Realizamos el trabajo necesario para
+                            dejar tu equipo funcionando correctamente.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACTO
+        ========================== -->
+
+        <section class="section contact-section" id="contacto">
+
+            <div class="container contact-grid">
+
+                <div class="contact-content">
+
+                    <span class="section-label" data-i18n="contact_us">
+                        CONTACTANOS
+                    </span>
+
+                    <h2 data-i18n="contact_title">
+                        ¿Necesitás un técnico?
+                    </h2>
+
+                    <p data-i18n="contact_description">
+                        Escribinos por WhatsApp para consultar precios,
+                        solicitar una visita o coordinar un servicio.
+                    </p>
+
+
+                    <div class="contact-items">
+
+                        <a
+                            href="https://wa.me/543757555031"
+                            target="_blank"
+                            class="contact-item"
+                        >
+                            <div class="contact-item-icon whatsapp-icon">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+
+                            <div>
+                                <span data-i18n="whatsapp">
+                                    WhatsApp
+                                </span>
+
+                                <strong>
+                                    3757 55-5031
+                                </strong>
+                            </div>
+                        </a>
+
+
+                        <div class="contact-item">
+
+                            <div class="contact-item-icon">
+                                <i class="fa-solid fa-snowflake"></i>
+                            </div>
+
+                            <div>
+                                <span data-i18n="specialty">
+                                    Especialidad
+                                </span>
+
+                                <strong data-i18n="specialty_text">
+                                    Refrigeración y electricidad industrial
+                                </strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <div class="contact-card-header">
+
+                        <div>
+                            <span data-i18n="quick_contact">
+                                CONTACTO RÁPIDO
+                            </span>
+
+                            <h3 data-i18n="send_message">
+                                Solicitar servicio
+                            </h3>
+                        </div>
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </div>
+
+
+                    <form id="contactForm">
+
+                        <div class="form-group">
+
+                            <label for="name" data-i18n="name">
+                                Nombre
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                placeholder="Tu nombre"
+                                data-i18n-placeholder="name_placeholder"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="service" data-i18n="service">
+                                Servicio
+                            </label>
+
+                            <select id="service" required>
+
+                                <option
+                                    value=""
+                                    data-i18n="select_service"
+                                >
+                                    Seleccioná un servicio
+                                </option>
+
+                                <option
+                                    value="Visita técnica"
+                                    data-i18n="option_visit"
+                                >
+                                    Visita técnica - $30.000
+                                </option>
+
+                                <option
+                                    value="Lavado de aire"
+                                    data-i18n="option_cleaning"
+                                >
+                                    Lavado de aire - $50.000
+                                </option>
+
+                                <option
+                                    value="Refrigeración"
+                                    data-i18n="option_refrigeration"
+                                >
+                                    Refrigeración
+                                </option>
+
+                                <option
+                                    value="Electricidad industrial"
+                                    data-i18n="option_electricity"
+                                >
+                                    Electricidad industrial
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message" data-i18n="message">
+                                Mensaje
+                            </label>
+
+                            <textarea
+                                id="message"
+                                rows="4"
+                                placeholder="Contanos qué necesitás..."
+                                data-i18n-placeholder="message_placeholder"
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary form-button"
+                        >
+                            <i class="fa-brands fa-whatsapp"></i>
+
+                            <span data-i18n="send_whatsapp">
+                                Enviar por WhatsApp
+                            </span>
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+
+                <a href="#inicio" class="logo">
+
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-snowflake"></i>
+                    </div>
+
+                    <div class="logo-text">
+                        <span>REFRIGERACIÓN</span>
+                        <strong>ALDO</strong>
+                    </div>
+
+                </a>
+
+                <p data-i18n="footer_description">
+                    Soluciones profesionales en refrigeración,
+                    climatización y electricidad industrial.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4 data-i18n="quick_links">
+                    Enlaces
+                </h4>
+
+                <a href="#inicio" data-i18n="nav_home">
+                    Inicio
+                </a>
+
+                <a href="#servicios" data-i18n="nav_services">
+                    Servicios
+                </a>
+
+                <a href="#precios" data-i18n="nav_prices">
+                    Precios
+                </a>
+
+                <a href="#contacto" data-i18n="nav_contact">
+                    Contacto
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h4 data-i18n="contact">
+                    Contacto
+                </h4>
+
+                <a
+                    href="https://wa.me/543757555031"
+                    target="_blank"
+                >
+                    <i class="fa-brands fa-whatsapp"></i>
+                    3757 55-5031
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <span>
+                    © <span id="currentYear"></span>
+                    Refrigeración Aldo.
+                </span>
+
+                <span data-i18n="rights">
+                    Todos los derechos reservados.
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         WHATSAPP FLOTANTE
+    ========================== -->
+
+    <a
+        href="https://wa.me/543757555031?text=Hola%20Refrigeración%20Aldo,%20quiero%20hacer%20una%20consulta."
+        target="_blank"
+        class="whatsapp-float"
+        aria-label="Contactar por WhatsApp"
+    >
+
+        <span class="whatsapp-tooltip" data-i18n="whatsapp_tooltip">
+            Contactanos
+        </span>
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
